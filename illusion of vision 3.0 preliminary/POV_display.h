@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
-#define WIDTH_DISPLAY 36
-#define HEIGHT_DISPLAY 8
+#define DISPLAY_LENGTH_IN_PIXELS 36
+#define DISPLAY_HEIGHT_IN_PIXELS 8
 
 class POV_display
 {
@@ -12,8 +12,8 @@ public:
 	void show();
 	void clear();
 private:
-	const int width_display_ = WIDTH_DISPLAY;
-	const int height_display_ = HEIGHT_DISPLAY;
-	char display_matrix_[HEIGHT_DISPLAY][WIDTH_DISPLAY];
+	const int width_display_ = DISPLAY_LENGTH_IN_PIXELS;
+	const int height_display_ = DISPLAY_HEIGHT_IN_PIXELS;
+	char display_matrix_[DISPLAY_HEIGHT_IN_PIXELS][DISPLAY_LENGTH_IN_PIXELS];
 };
 

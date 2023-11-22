@@ -2,7 +2,6 @@
 
 POV_display::POV_display()
 {
-	
 }
 
 POV_display::~POV_display()

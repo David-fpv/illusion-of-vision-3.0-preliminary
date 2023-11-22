@@ -127,13 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BitArray.cpp" />
+    <ClCompile Include="english_alphabet.cpp" />
+    <ClCompile Include="FrameBuilder.cpp" />
     <ClCompile Include="illusion of vision 3.0 preliminary.cpp" />
+    <ClCompile Include="MyString.cpp" />
     <ClCompile Include="POV_display.cpp" />
-    <ClCompile Include="UpdateImage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BitArray.h" />
+    <ClInclude Include="english_alphabet.h" />
+    <ClInclude Include="FrameBuilder.h" />
+    <ClInclude Include="MyString.h" />
     <ClInclude Include="POV_display.h" />
-    <ClInclude Include="UpdateImage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
